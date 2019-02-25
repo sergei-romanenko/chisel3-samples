@@ -1,6 +1,6 @@
 # Some experiments with Chisel3
 
-## What is Chisel3
+## What is Chisel3?
 
 Chisel3 is an open-source hardware construction language developed at UC Berkeley that supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages.
 
