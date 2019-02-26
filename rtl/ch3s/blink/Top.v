@@ -8,6 +8,6 @@ module Top (
   always @(posedge clk)
     reset <= 0;
 
-  Counter counter_1(.clock(clk), .reset(reset), .io_leds(io_leds));
+  Blink blink_1(.clock(clk), .reset(reset), .io_leds(io_leds));
 
-  endmodule
+endmodule
