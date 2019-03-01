@@ -8,7 +8,7 @@ class BlinkTests(dut: Blink) extends PeekPokeTester(dut) {
 }
 
 class BlinkTester extends ChiselFlatSpec {
-  "Counter" should "run" in {
+  "Blink" should "run" in {
     Driver.execute(
       Array(
         "--backend-name", "firrtl",
